@@ -12,6 +12,16 @@ Explanation:
 Return frequency count object.
 */
 
-function solve() {
-  // Your code goes here
+// function solve() {
+//   // Your code goes here
+// }
+
+const arr = ['a', 'b', 'a', 'c']
+const obj = {}
+let x = 1
+
+for (let i = 0; i < arr.length; i++) {
+
+  obj[arr[i]] = x
 }
+console.log(obj);

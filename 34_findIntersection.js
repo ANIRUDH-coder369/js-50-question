@@ -12,6 +12,6 @@ Explanation:
 Return common elements.
 */
 
-function solve() {
-  // Your code goes here
-}
+// function solve() {
+//   // Your code goes here
+// }

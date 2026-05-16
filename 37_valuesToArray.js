@@ -12,6 +12,13 @@ Explanation:
 Return values as array.
 */
 
-function solve() {
-  // Your code goes here
+// function solve() {
+//   // Your code goes here
+// }
+
+const obj = { a: 1, b: 2 }
+const x = []
+for (const key in obj) {
+  x.push(obj[key])
 }
+console.log(x);
