@@ -18,10 +18,13 @@ Return key whose value matches given value.
 
 const obj = { a: 1, b: 2, c: 3 }
 
-for (const key in obj) {
-  if (obj[key] === 2) {
-    console.log(key);
+// for (const key in obj) {
+//   if (obj[key] === 2) {
+//     console.log(key);
 
-  }
-}
+//   }
+// }
 // console.log(key);
+
+const x = Object.keys(obj).find(item => obj[item] === 2)
+console.log(x);

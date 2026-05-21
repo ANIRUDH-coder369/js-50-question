@@ -17,7 +17,9 @@ Return all elements appearing more than once.
 // }
 
 const arr = [1, 2, 2, 3, 4, 4, 5]
-
-for (let i = 0; i < arr.length; i++) {
-
+let x = [arr[0]]
+let y = 1
+for (let i = 1; i < arr.length; i++) {
+    
 }
+console.log(x);
